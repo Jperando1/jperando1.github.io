@@ -1,0 +1,14 @@
+{
+    "en": {
+        "greeting": "Hello",
+        "description": "This is a sample text."
+  },
+    "es": {
+        "greeting": "Hola",
+        "description": "Este es un texto de ejemplo."
+  },
+    "ja": {
+        "greeting": "こんにちは",
+        "description": "これはサンプルテキストです。"
+      }
+}
