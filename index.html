@@ -1,25 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-
-
-<link href="style.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeremy Perando - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<br>
-<center>
-<button class="contentButton"><span class="contentTip">Tooltip text</span></button> 
-<button class="contentButton"><span class="contentTip">Tooltip text</span></button> 
-<button class="contentButton"><span class="contentTip">Tooltip text</span></button> 
-<button class="contentButton"><span class="contentTip">Tooltip text</span></button> 
+    <nav id="navbar">
+        <div class="nav-content">
+            <h1 class="logo">Jeremy Perando</h1>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
-</center>
+    <header id="hero">
+        <div class="container">
+            <h2>Web Design, Programming, AI Research</h2>
+            <p></p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </header>
 
-<button class="tv-button"></button>
+    <section id="about" class="container section">
+        <h2>About Me</h2>
+        <p>I am a senior computer science student at Frostburg State University graduating in spring 2026. 
+            I have 4 years of internship experience working at a local industrial automation company where I primarily integrated industrial control systems with IoT devices and web interfaces. 
+            I also have experience in freelance web development, both designing and managing websites for multiple local businesses.</p>
+    </section>
 
+    <section id="projects" class="bg-light section">
+        <div class="container">
+            <h2>Selected Projects</h2>
+            <div class="project-grid">
+                
+                <div class="project-card">
+                    <h3>Offline Cast</h3>
+                    <p>A program designed to share content from a host screen to client devices without an internet connection.</p>
+                    <div class="tags"><span>Node.js</span><span>Web</span><span class="info-tag"><a href="https://www.google.com">+ More Info</a></span></div>
+                </div>
 
+                <div class="project-card">
+                    <h3>Geobrawl</h3>
+                    <p>An indie game developed using Unity. It is a multiplayer platform fighter with rougelike upgrade mechanics.</p>
+                    <div class="tags"><span>C#</span><span>Unity</span><span class="info-tag"><a href="https://www.google.com">+ More Info</a></span></div>
+                </div>
 
+                <div class="project-card">
+                    <h3>Cove Run Farms</h3>
+                    <p>A website for a local farm and corn maze. It is built with WordPress and designed with a custom theme based on client input.</p>
+                    <div class="tags"><span>PHP</span><span>WordPress</span><span class="info-tag"><a href="https://www.coverunfarmscornmaze.com">+ More Info</a></span></div>
+                </div>
 
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container section">
+        <h2>Get In Touch</h2>
+        <p>I'm currently looking for new opportunities and collaborations. Feel free to reach out!</p>
+        <a href="mailto:your.email@example.com" class="btn">Email Me</a>
+    </section>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Jeremy Perando. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
